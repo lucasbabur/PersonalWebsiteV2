@@ -1,0 +1,18 @@
+.image {
+  height: 500px;
+  width: 500px;
+}
+
+@media screen and (max-width: 960px) {
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .image {
+    height: 250px;
+    width: 250px;
+  }
+}

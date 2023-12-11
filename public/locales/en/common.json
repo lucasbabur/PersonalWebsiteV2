@@ -1,0 +1,132 @@
+{
+  "navbar": {
+    "home": "Who am I",
+    "feedback": "Feedback",
+    "contact": "Contact",
+    "projects": "Projects"
+  },
+  "hero": {
+    "heroSubtitle": "Rethinking Boundaries: In Tech, In Life",
+    "heroButtonText": "Learn more"
+  },
+  "projectsNavbar": {
+    "back": "Go back"
+  },
+  "aboutMe": {
+    "aboutTitle": "Who am I",
+    "aboutDescription": "I am Lucas Tejedor, a developer at Elogroup, aspiring to further my education in the USA. This site chronicles my explorations, showcasing various projects I've undertaken over the years. My curiosity has driven me through self-directed ventures across a breadth of subjects, from neurology and psychology to mathematics and design. In a world awash with endless information, being self-taught is not merely a skill, but a fundamental necessity. This journey has granted me a unique perspective that might be valuable to you. Each new subject I explore sparks a desire to share the acquired knowledge, creating content that enriches both my understanding and that of others. This cycle of learning and teaching underscores the significant impact a self-taught individual can have, fostering personal growth and contributing to the broader societal intellectual fabric.",
+    "professionalHistory": {
+      "title": "Professional History",
+      "history": [
+        {
+          "alt": "CEFET logo",
+          "title": "Fellow/Student",
+          "institution": "CEFET/RJ",
+          "year": "2019 - 2022",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F2.png?alt=media&token=88bd6e01-b681-46eb-81e9-a54b50266bde"
+        },
+        {
+          "alt": "Ventura logo",
+          "title": "Intern Developer",
+          "institution": "Ventura Prod. Artísticas",
+          "year": "2022 - 2023",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F3.png?alt=media&token=cb933230-8428-48fb-8933-f79a540b13c4"
+        },
+        {
+          "alt": "EloGroup logo",
+          "title": "Jr Developer",
+          "institution": "EloGroup",
+          "year": "2023/01 - 2023/06",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F4.png?alt=media&token=a0427dc4-10df-46b5-ab52-4b58b2b798e1"
+        },
+        {
+          "alt": "EloGroup logo",
+          "title": "Mid-level Developer",
+          "institution": "EloGroup",
+          "year": "2023/06 - Actual",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F4.png?alt=media&token=a0427dc4-10df-46b5-ab52-4b58b2b798e1"
+        }
+      ]
+    }
+  },
+  "dataInNumbers": {
+    "prizes": "Awards",
+    "projects": "Projects",
+    "publishedPapers": "Published Articles"
+  },
+  "projectsSection": {
+    "title": "My Projects",
+    "description": "Projects with medals won at least one competition.",
+    "projectsCategory": "Projects",
+    "articlesAndBooks": "Articles & Books",
+    "personalProjects": "Personal Projects",
+    "certificatesFellowships": "Certificates & Fellowships",
+    "howMany_1": "There's a total of ",
+    "howMany_2": " registered activities."
+  },
+  "feedback": [
+    {
+      "name": "Anderson Cortez",
+      "subtitle": "Former Undersecretary of Extension",
+      "description": "The most beautiful sacrifice is the one where you sacrifice your social life, and maybe your happiness, for the sake of your dream. This is Lucas Tejedor.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2Fcortez.webp?alt=media&token=276080f4-de27-4465-8278-c1c6919369d7"
+    },
+    {
+      "name": "João R. de T. Quadros",
+      "subtitle": "PhD Professor at CEFET/RJ",
+      "description": "Lucas Tejedor is the name of an innovative person, who has an intense light on the development and knowledge of Information Technology and the like. It won't surprise me if, soon, he becomes another brilliant mind in this world of technology, with how national, individual and human.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2FJoao.webp?alt=media&token=f1ae9725-54e1-41cd-8ae4-53dbf781fe72"
+    },
+    {
+      "name": "Lucas C. Gregory",
+      "subtitle": "President of the Student Union",
+      "description": "Many plans, strategies, dreams, and hopes. I would venture to say that this would be the definition of life. There are those who disagree. But those who know Lucas Tejedor, know that this is the definition he would give. A mind with many expectations, perspectives, and courage.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2FLucas%20Gregorio.webp?alt=media&token=fd8c73c7-9495-455f-8d30-3a10409ec5fb"
+    },
+    {
+      "name": "João T. Dias",
+      "subtitle": "PhD Prof. at Cefet/RJ and researcher at CIA-Rio",
+      "description": "I have had the pleasure of guiding two projects developed by Lucas, which is a great exchange of knowledge. A born researcher, with proactivity and vision that surprises. I have no doubt that he is a brilliant mind with an extreme ability to perform multiple and complex tasks with the clarity and vision of someone who performs a simple task.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2FJoao%20Dias.webp?alt=media&token=51631155-665f-46a4-98d1-0cbb290063d8"
+    }
+  ],
+  "otherAchievements": {
+    "title": "Other Achievements",
+    "description": "My personal accomplishments are listed below. The purpose of this website is, in addition to showing my professional skills, to maintain a repository of my achievements over the years. Therefore, there is also a need for a space to document my personal achievements, which I will list below:",
+    "readingList": "Reading list",
+    "skills": "Skills",
+    "booksRead": "Number of books read: ",
+    "bookReading": "the book I'm reading",
+    "book": "Thus spoke Zaratustra"
+  },
+  "contact": {
+    "title": "Contact",
+    "emailPlaceholder": "E-Mail",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Message",
+    "sendButtonText": "Send",
+    "messageSent": {
+      "title": "Message sent",
+      "content": "Thank you for your message."
+    },
+    "messageError": {
+      "title": "Message not sent",
+      "content": "An error occurred while sending the message. Please try again later."
+    },
+    "emailErrors": {
+      "required": "Enter an email address.",
+      "invalid": "Enter a valid email address."
+    },
+    "subjectErrors": {
+      "required": "Enter a subject.",
+      "minlength": "Enter at least 20 characters.",
+      "maxlength": "Enter no more than 200 characters."
+    },
+    "messageErrors": {
+      "required": "Enter a message.",
+      "minlength": "Enter at least 50 characters.",
+      "maxlength": "Enter no more than 2000 characters."
+    }
+  },
+  "footer": "All rights reserved"
+}

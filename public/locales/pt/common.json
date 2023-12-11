@@ -1,0 +1,129 @@
+{
+  "navbar": {
+    "home": "Quem sou",
+    "feedback": "Feedback",
+    "contact": "Contato",
+    "projects": "Projetos"
+  },
+  "projectsNavbar": {
+    "back": "Voltar"
+  },
+  "hero": {
+    "heroSubtitle": "Da programação a política. Da neurologia as ciências sociais.",
+    "heroButtonText": "Saiba mais"
+  },
+  "aboutMe": {
+    "aboutTitle": "Quem sou",
+    "aboutDescription": "Meu nome é Lucas Tejedor, sou estudante do CEFET/RJ e curso informática. Criei este site para documentar os projetos que criei durante os anos. Amo aprender e sempre fui auto-didata. Li livros sobre os mais diversos temas, desde neurologia, psicologia até matemática e design. Para mim, ser auto-didata é uma das habilidades mais importantes em nossa era, especialmente dado a velocidade com as quais novas informações são produzidas. Ao longo dos anos, adquiri uma perspectiva muito valiosa que pode servir a você, leitor. Sempre quando estudo sobre algum assunto, ou procuro me aprofundar, tento produzir um conteúdo sobre o assunto, assim, além de ensinar aos outros novas informações, você também acaba aprendendo. Dessa forma, o auto-didata não apenas contribui consigo próprio, como a sociedade ao seu redor.",
+    "professionalHistory": {
+      "title": "Histórico profissional",
+      "history": [
+        {
+          "alt": "CEFET Logo",
+          "title": "Bolsista/Estudante",
+          "institution": "CEFET/RJ",
+          "year": "2019 - 2022",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F2.png?alt=media&token=88bd6e01-b681-46eb-81e9-a54b50266bde"
+        },
+        {
+          "alt": "Ventura Logo",
+          "title": "Estagiário",
+          "institution": "Ventura Prod. Artísticas",
+          "year": "2022 - 2023",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F3.png?alt=media&token=cb933230-8428-48fb-8933-f79a540b13c4"
+        },
+        {
+          "alt": "EloGroup Logo",
+          "title": "Desenvolvedor Jr.",
+          "institution": "EloGroup",
+          "year": "2023/01 - 2023/06",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F4.png?alt=media&token=a0427dc4-10df-46b5-ab52-4b58b2b798e1"
+        },
+        {
+          "alt": "EloGroup Logo",
+          "title": "Desenvolvedor Pleno",
+          "institution": "EloGroup",
+          "year": "2023/06 - Atual",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F4.png?alt=media&token=a0427dc4-10df-46b5-ab52-4b58b2b798e1"
+        }
+      ]
+    }
+  },
+  "dataInNumbers": {
+    "prizes": "Prêmios",
+    "prizesNumber": "+19",
+    "projects": "Projetos",
+    "projectsNumber": "+17",
+    "publishedPapers": "Artigos publicados",
+    "publishedPapersNumber": "+5"
+  },
+  "projectsSection": {
+    "title": "Projetos",
+    "description": "Projetos com medalha venceram alguma competição",
+    "projectsCategory": "Projetos",
+    "articlesAndBooks": "Artigos e Livros",
+    "personalProjects": "Projetos Pessoais",
+    "certificatesFellowships": "Certificados e Vínculos",
+    "howMany_1": "Há um total de ",
+    "howMany_2": " atividades registradas."
+  },
+  "otherAchievements": {
+    "title": "Outros Feitos",
+    "description": "Conquistas pessoais minhas são listadas abaixo. O objetivo deste site é, além de mostrar minhas habilidades profissionais, manter um repositório dos meus feitos ao longo dos anos. Portanto, também é necessário um espaço para documentar meus feitos pessoais, que listarei abaixo:",
+    "readingList": "Lista de leitura",
+    "skills": "Habilidades",
+    "booksRead": "Número de livros lidos: ",
+    "bookReading": "Livro que estou lendo atualmente: ",
+    "book": "Thus Spoke Zaratustra"
+  },
+  "feedback": [
+    {
+      "name": "Anderson Cortez",
+      "subtitle": "Ex-Subsecretário de Extensão",
+      "description": "O sacrifício mais bonito é aquele onde você sacrifica sua vida social, e talvez sua felicidade, em prol do seu sonho. Este, é Lucas Tejedor.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2Fcortez.webp?alt=media&token=276080f4-de27-4465-8278-c1c6919369d7"
+    },
+    {
+      "name": "João R. de T. Quadros",
+      "subtitle": "Professor PhD no CEFET/RJ",
+      "description": "Lucas Tejedor é o nome de uma pessoa inovadora, que tem uma luz intensa no desenvolvimento e conhecimento da Tecnologia da Informação e afins. Não me espantará se ele se tornar uma mente brilhante neste mundo da tecnologia, com know-how nacional, individual e humano.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2FJoao.webp?alt=media&token=f1ae9725-54e1-41cd-8ae4-53dbf781fe72"
+    },
+    {
+      "name": "João T. Dias",
+      "subtitle": "Prof. Dr. no Cefet/RJ e pesquisador do CIA-Rio",
+      "description": "Tenho tido o prazer de orientar dois projetos desenvolvidos pelo Lucas. Um pesquisador nato, com uma proatividade e visão que surpreende. Não tenho dúvida que se trata de uma mente brilhante com extrema capacidade de realizar múltiplas e complexas tarefas com a clareza e visão de quem realiza apenas uma.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2FJoao%20Dias.webp?alt=media&token=51631155-665f-46a4-98d1-0cbb290063d8"
+    }
+  ],
+  "contact": {
+    "title": "Contato",
+    "emailPlaceholder": "E-Mail",
+    "subjectPlaceholder": "Asssunto",
+    "messagePlaceholder": "Mensagem",
+    "sendButtonText": "Enviar",
+    "messageSent": {
+      "title": "Sucesso",
+      "content": "Mensagem enviada com sucesso"
+    },
+    "messageError": {
+      "title": "Erro",
+      "content": "Ocorreu um erro ao enviar a mensagem. Tente novamente mais tarde."
+    },
+    "emailErrors": {
+      "required": "Insira um email.",
+      "invalid": "Insira um email válido."
+    },
+    "subjectErrors": {
+      "required": "Insira um assunto.",
+      "minlength": "Insira pelo menos 20 caracteres.",
+      "maxlength": "Insira no máximo 200 caracteres."
+    },
+    "messageErrors": {
+      "required": "Insira uma mensagem.",
+      "minlength": "Insira pelo menos 50 caracteres.",
+      "maxlength": "Insira no máximo 2000 caracteres."
+    }
+  },
+  "footer": "Todos os direitos reservados"
+}

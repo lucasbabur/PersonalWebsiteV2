@@ -1,0 +1,211 @@
+{
+  "Skills": [
+    {
+      "title": "Programação",
+      "skills": [
+        {
+          "name": "Python",
+          "icon": "Banana",
+          "level": "85",
+          "color": "#F54040",
+          "levelText": "Avançado"
+        },
+        {
+          "name": "Javascript",
+          "icon": "Banana",
+          "level": "85",
+          "color": "#F54040",
+          "levelText": "Avançado"
+        },
+        {
+          "name": "Java",
+          "icon": "Banana",
+          "level": "20",
+          "color": "#F54040",
+          "levelText": "Básico"
+        },
+        {
+          "name": "C",
+          "icon": "Banana",
+          "level": "56",
+          "color": "#F54040",
+          "levelText": "Intermediário"
+        },
+        {
+          "name": "Lua",
+          "icon": "Banana",
+          "level": "28",
+          "color": "#F54040",
+          "levelText": "Básico"
+        },
+        {
+          "name": "R",
+          "icon": "Banana",
+          "level": "44",
+          "color": "#F54040",
+          "levelText": "Intermediário"
+        }
+      ]
+    },
+    {
+      "title": "Programação por Área",
+      "skills": [
+        {
+          "name": "Web",
+          "icon": "Banana",
+          "level": "85",
+          "color": "#5462EB",
+          "levelText": "Avançado"
+        },
+        {
+          "name": "Inteligência Artificial",
+          "icon": "Banana",
+          "level": "75",
+          "color": "#5462EB",
+          "levelText": "Avançado"
+        },
+        {
+          "name": "Mobile",
+          "icon": "Banana",
+          "level": "85",
+          "color": "#5462EB",
+          "levelText": "Avançado"
+        },
+        {
+          "name": "BackEnd",
+          "icon": "Banana",
+          "level": "60",
+          "color": "#5462EB",
+          "levelText": "Intermediário"
+        },
+        {
+          "name": "DevOps",
+          "icon": "Banana",
+          "level": "22",
+          "color": "#5462EB",
+          "levelText": "Básico"
+        },
+        {
+          "name": "Hacking",
+          "icon": "Banana",
+          "level": "25",
+          "color": "#5462EB",
+          "levelText": "Básico"
+        }
+      ]
+    },
+    {
+      "title": "Línguas",
+      "skills": [
+        {
+          "name": "Inglês",
+          "icon": "Banana",
+          "level": "90",
+          "color": "#EBC53D",
+          "levelText": "Fluente - C1"
+        },
+        {
+          "name": "Espanhol",
+          "icon": "Banana",
+          "level": "50",
+          "color": "#EBC53D",
+          "levelText": "Intermediário"
+        },
+        {
+          "name": "Português",
+          "icon": "Banana",
+          "level": "100",
+          "color": "#EBC53D",
+          "levelText": "Nativo"
+        }
+      ]
+    },
+    {
+      "title": "Design",
+      "skills": [
+        {
+          "name": "Canva",
+          "icon": "Banana",
+          "level": "90",
+          "color": "#49EB77",
+          "levelText": "Expert"
+        },
+        {
+          "name": "Photoshop",
+          "icon": "Banana",
+          "level": "25",
+          "color": "#49EB77",
+          "levelText": "Básico"
+        },
+        {
+          "name": "Edição de Vídeos",
+          "icon": "Banana",
+          "level": "50",
+          "color": "#49EB77",
+          "levelText": "Intermediário"
+        },
+        {
+          "name": "Sony Vegas",
+          "icon": "Banana",
+          "level": "48",
+          "color": "#49EB77",
+          "levelText": "Intermediário"
+        },
+        {
+          "name": "Adobe After Effects",
+          "icon": "Banana",
+          "level": "27",
+          "color": "#49EB77",
+          "levelText": "Básico"
+        },
+        {
+          "name": "Desenho",
+          "icon": "Banana",
+          "level": "4",
+          "color": "#49EB77",
+          "levelText": "Leigo"
+        }
+      ]
+    },
+    {
+      "title": "Esportes",
+      "skills": [
+        {
+          "name": "Corrida",
+          "icon": "Banana",
+          "level": "80",
+          "color": "#5462EB",
+          "levelText": "Avançado"
+        },
+        {
+          "name": "Natação",
+          "icon": "Banana",
+          "level": "40",
+          "color": "#5462EB",
+          "levelText": "Intermediário"
+        },
+        {
+          "name": "Basquete",
+          "icon": "Banana",
+          "level": "25",
+          "color": "#5462EB",
+          "levelText": "Básico"
+        },
+        {
+          "name": "Ciclismo",
+          "icon": "Banana",
+          "level": "50",
+          "color": "#5462EB",
+          "levelText": "Intermediário"
+        },
+        {
+          "name": "Vôlei",
+          "icon": "Banana",
+          "level": "35",
+          "color": "#5462EB",
+          "levelText": "Básico"
+        }
+      ]
+    }
+  ]
+}

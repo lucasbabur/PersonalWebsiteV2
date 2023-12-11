@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "goBackButton": "Voltar"
+  },
+  "headline": {
+    "updateStatus": {
+      "updatedDaysAgo": "Atualizado há {{count}} dia(s) atrás",
+      "updatedWeekAgo": "Atualizado há uma semana",
+      "updatedTwoWeeksAgo": "Atualizado há 2 semanas",
+      "updatedMoreThanMonth": "Atualizado há mais de um mês atrás",
+      "updatedOn": "Atualizado em {{day}}"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.video {
+  overflow-x: hidden;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+  filter: brightness(60%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow_down {
+  margin: 0 auto;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+  margin-bottom: 7vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  transform: rotate(45deg);
+  animation: arrowDownAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  animation-timing-function: ease;
+}
+
+@keyframes arrowDownAnimation {
+  0% {
+    margin-bottom: 4vh;
+  }
+  50% {
+    margin-bottom: 8vh;
+  }
+  100% {
+    margin-bottom: 4vh;
+  }
+}

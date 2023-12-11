@@ -1,0 +1,135 @@
+{
+  "navbar": {
+    "home": "¿Quién soy",
+    "feedback": "Comentarios",
+    "contact": "Contacto",
+    "projects": "Proyectos"
+  },
+  "projectsNavbar": {
+    "back": "Volver"
+  },
+  "hero": {
+    "heroSubtitle": "Repensando Límites: En Tecnología, En la Vida",
+    "heroButtonText": "Aprende más"
+  },
+  "aboutMe": {
+    "aboutTitle": "¿Quién soy",
+    "aboutDescription": "Soy Lucas Tejedor, un desarrollador en Elogroup, aspirando a continuar mi educación en los Estados Unidos. Este sitio relata mis exploraciones, mostrando varios proyectos que he emprendido a lo largo de los años. Mi curiosidad me ha llevado a través de empresas autodirigidas en una amplia gama de temas, desde neurología y psicología hasta matemáticas y diseño. En un mundo inundado de información interminable, ser autodidacta no es solo una habilidad, sino una necesidad fundamental. Este viaje me ha otorgado una perspectiva única que podría ser valiosa para ti. Cada nuevo tema que exploro despierta el deseo de compartir el conocimiento adquirido, creando contenido que enriquece tanto mi comprensión como la de los demás. Este ciclo de aprendizaje y enseñanza subraya el impacto significativo que una persona autodidacta puede tener, fomentando el crecimiento personal y contribuyendo al tejido intelectual de la sociedad en general.",
+    "professionalHistory": {
+      "title": "Historia Profesional",
+      "history": [
+        {
+          "alt": "CEFET Logo",
+          "title": "Becario/Estudiante",
+          "institution": "CEFET/RJ",
+          "year": "2019 - 2022",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F2.png?alt=media&token=88bd6e01-b681-46eb-81e9-a54b50266bde"
+        },
+        {
+          "alt": "Ventura Logo",
+          "title": "Desarrollador en Prácticas",
+          "institution": "Ventura Prod. Artísticas",
+          "year": "2022 - 2023",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F3.png?alt=media&token=cb933230-8428-48fb-8933-f79a540b13c4"
+        },
+        {
+          "alt": "EloGroup Logo",
+          "title": "Desarrollador Jr",
+          "institution": "EloGroup",
+          "year": "2023/01 - 2023/06",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F4.png?alt=media&token=a0427dc4-10df-46b5-ab52-4b58b2b798e1"
+        },
+        {
+          "alt": "EloGroup Logo",
+          "title": "Desarrollador de Nivel Medio",
+          "institution": "EloGroup",
+          "year": "2023/06 - Actualidad",
+          "src": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Profissional%2F4.png?alt=media&token=a0427dc4-10df-46b5-ab52-4b58b2b798e1"
+        }
+      ]
+    }
+  },
+  "dataInNumbers": {
+    "prizes": "Premios",
+    "prizesNumber": "+19",
+    "projects": "Proyectos",
+    "projectsNumber": "+17",
+    "publishedPapers": "Artículos Publicados",
+    "publishedPapersNumber": "+5"
+  },
+  "projectsSection": {
+    "title": "Mis Proyectos",
+    "description": "Proyectos con medallas ganadas en al menos una competencia.",
+    "projectsCategory": "Proyectos",
+    "articlesAndBooks": "Artículos y Libros",
+    "personalProjects": "Proyectos Personales",
+    "certificatesFellowships": "Certificados y Becas",
+    "howMany_1": "Hay un total de ",
+    "howMany_2": " actividades registradas."
+  },
+  "feedback": [
+    {
+      "name": "Anderson Cortez",
+      "subtitle": "Ex subsecretario de Extensión",
+      "description": "El sacrificio más hermoso es aquel en el que sacrificas tu vida social, y tal vez tu felicidad, por el bien de tu sueño. Este es Lucas Tejedor.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2Fcortez.webp?alt=media&token=276080f4-de27-4465-8278-c1c6919369d7"
+    },
+    {
+      "name": "João R. de T. Quadros",
+      "subtitle": "Profesor de Doctorado en CEFET/RJ",
+      "description": "Lucas Tejedor es el nombre de una persona innovadora, que tiene una luz intensa en el desarrollo y conocimiento de las Tecnologías de la Información y afines. No me sorprendería si, pronto, se convierte en otra mente brillante en este mundo de la tecnología, con cuan nacional, individual y humano.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2FJoao.webp?alt=media&token=f1ae9725-54e1-41cd-8ae4-53dbf781fe72"
+    },
+    {
+      "name": "Lucas C. Gregorio",
+      "subtitle": "Presidente de la Unión de Estudiantes",
+      "description": "Muchos planes, estrategias, sueños y esperanzas. Me aventuraría a decir que esa sería la definición de la vida. Hay quienes no están de acuerdo. Pero quienes conocen a Lucas Tejedor, saben que esa es la definición que él daría. muchas expectativas, perspectivas, y coraje.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2FLucas%20Gregorio.webp?alt=media&token=fd8c73c7-9495-455f-8d30-3a10409ec5fb"
+    },
+    {
+      "name": "João T. Días",
+      "subtitle": "Prof. Dr. en Cefet/RJ e investigador en CIA-Rio",
+      "description": "He tenido el placer de guiar dos proyectos desarrollados por Lucas, lo cual es un gran intercambio de conocimientos. Investigador nato, con una proactividad y visión que sorprende. No tengo ninguna duda de que es una mente brillante con una capacidad extrema para realizar tareas múltiples y complejas con la claridad y la visión de alguien que realiza una tarea simple.",
+      "link": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FPessoas%2FJoao%20Dias.webp?alt=media&token=51631155-665f-46a4-98d1-0cbb290063d8"
+    }
+  ],
+  "otherAchievements": {
+    "title": "Otras Conquistas",
+    "description": "Mis logros personales se enumeran a continuación. El propósito de este sitio web es, además de mostrar mis habilidades profesionales, mantener un repositorio de mis logros a lo largo de los años. Por lo tanto, también existe la necesidad de un espacio para documentar mis logros personales, que enumeraré a continuación:",
+    "readingList": "Lista de Lecturas",
+    "skills": "Habilidades",
+    "booksRead": "Número de libros leídos: ",
+    "bookReading": "Libro que estoy leyendo actualmente: ",
+    "book": "Thus Spoke Zaratustra"
+  },
+  "contact": {
+    "title": "Contacto",
+    "emailPlaceholder": "Correo Electrónico",
+    "subjectPlaceholder": "Asunto",
+    "messagePlaceholder": "Mensaje",
+    "sendButtonText": "Enviar",
+    "messageSent": {
+      "title": "Mensaje enviado",
+      "content": "Mensaje enviado con éxito"
+    },
+    "messageError": {
+      "title": "Error",
+      "content": "Error al enviar el mensaje"
+    },
+    "emailErrors": {
+      "required": "Ingrese un correo electrónico.",
+      "invalid": "Ingrese un correo electrónico válido."
+    },
+    "subjectErrors": {
+      "required": "Ingrese un asunto.",
+      "minlength": "Ingrese al menos 20 caracteres.",
+      "maxlength": "Ingrese no más de 200 caracteres."
+    },
+    "messageErrors": {
+      "required": "Ingrese un mensaje.",
+      "minlength": "Ingrese al menos 50 caracteres.",
+      "maxlength": "Ingrese no más de 500 caracteres."
+    }
+  },
+  "footer": "Todos los derechos reservados"
+}

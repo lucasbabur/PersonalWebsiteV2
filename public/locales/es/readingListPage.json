@@ -1,0 +1,10 @@
+{
+  "title": "Lista de Lectura",
+  "currentBook": {
+    "title": "Peak - Los secretos de la ciencia de la experiencia",
+    "author": "Anders Ericsson y Robert Pool",
+    "image": "https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/Livros%2FPeakTheSCienceofExpertise.png?alt=media&token=b96df1eb-07b4-4f85-8530-ca17f764812b&_gl=1*srsrq9*_ga*MTg2MjUwOTQyOS4xNjk1OTI4NzYy*_ga_CW55HF8NVT*MTY5NzkyMzg2MC42LjEuMTY5NzkyNDEyMC42MC4wLjA."
+  },
+  "booksAlreadyRead": "Libros ya leídos:",
+  "numberOfBooksRead": "Número de libros leídos:"
+}
