@@ -1,5 +1,5 @@
 export const SEO = {
-  title: "SampleApp",
+  title: "Lucas Tejedor",
   description: "A boilerplate with TypeScript, ESLint, Prettier, ChakraUI...",
 };
 
