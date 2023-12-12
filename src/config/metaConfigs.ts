@@ -23,4 +23,5 @@ export const STANDARD_LINKS_PROPS = {
   offset: -70,
   duration: 2000,
   style: { zIndex: 10 },
+  href: "#",
 };
