@@ -46,23 +46,7 @@ export function Hero() {
   }, [inView]);
 
   return (
-    <Box
-      sx={{
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        height: "95vh",
-        width: "100%",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        overflow: "hidden",
-        position: "relative",
-        filter: "brightness(.9)",
-      }}
-      ref={divRef}
-    >
+    <Box className={styles.background} ref={divRef}>
       {hasWindow && <VidPlayer videoref={videoRef} />}
 
       <Typography
@@ -97,7 +81,7 @@ export function Hero() {
       </Typography>
 
       <Box mt={2}>
-        <Link to="quemsou" {...STANDARD_LINKS_PROPS}>
+        <Link to="WhoAmI" {...STANDARD_LINKS_PROPS}>
           <Button variant="contained">{t("hero.heroButtonText")}</Button>
         </Link>
       </Box>

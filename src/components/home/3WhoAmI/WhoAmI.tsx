@@ -42,7 +42,7 @@ export function WhoAmI() {
       >
         <Avatar
           alt="Lucas Tejedor"
-          id="quemsou"
+          id="WhoAmI"
           src="https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/otimizado%2FProfile.png?alt=media&token=6d9041b5-c560-4009-a6c3-d8ecd1f1d5cf"
           sx={{ width: 150, height: 150, mt: 2 }} // use theme spacing units
         />

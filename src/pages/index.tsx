@@ -10,6 +10,7 @@ import {
   Contact,
   Footer,
 } from "@/components/home";
+import Head from "next/head";
 
 import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -17,6 +18,9 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Lucas Tejedor</title>
+      </Head>
       <Navbar />
       <Hero />
       <WhoAmI />
