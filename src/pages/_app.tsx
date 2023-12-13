@@ -9,6 +9,7 @@ import { theme } from "../theme";
 import createEmotionCache from "../config/createEmotionCache";
 import { appWithTranslation } from "next-i18next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 import { FirebaseInitializer } from "@/firebase/firebaseAppConfig";
 import { SEO, LogoObject } from "@/config/metaConfigs";
@@ -26,7 +27,6 @@ function App(props: MyAppProps) {
     <CacheProvider value={emotionCache}>
       <FirebaseProvider>
         <FirebaseInitializer />
-        <SpeedInsights />
         <Head>
           <title>{SEO.title}</title>
           <link rel="shortcut icon" href={LogoObject.favicon} />
@@ -55,6 +55,8 @@ function App(props: MyAppProps) {
           <ThemeProvider theme={theme}>
             <CssBaseline />
             <Component {...pageProps} />
+            <SpeedInsights />
+            <Analytics />
           </ThemeProvider>
         </React.StrictMode>
       </FirebaseProvider>
