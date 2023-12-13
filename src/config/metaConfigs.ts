@@ -1,6 +1,6 @@
 export const SEO = {
   title: "Lucas Tejedor",
-  description: "A boilerplate with TypeScript, ESLint, Prettier, ChakraUI...",
+  description: "Lucas Tejedor's personal website.",
 };
 
 export const LogoObject = {
@@ -9,8 +9,6 @@ export const LogoObject = {
   imagePath: "/static/images/SampleSVG.svg",
   favicon: "image/favicon-16x16.png",
 };
-
-export const NAVBAR_LINKS = [];
 
 export const ABOUT_ME_SECTION_LINKS = {
   instagram: "https://www.instagram.com/lucas.tejedor.s/",
