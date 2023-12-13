@@ -36,8 +36,7 @@ function ReadingListPage() {
       <Head>
         <title>Reading list</title>
       </Head>
-      (bookData.length != 0 &&{" "}
-      <ReadingList title={t("title")} data={bookData} />)
+      <ReadingList title={t("title")} data={bookData} />
     </>
   );
 }
