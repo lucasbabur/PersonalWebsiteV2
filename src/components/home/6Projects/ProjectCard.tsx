@@ -7,18 +7,20 @@ import CardActionArea from "@mui/material/CardActionArea";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
 
-import { ProjectData } from "@/firebase/firebaseFunctions";
+import { ProjectsProps } from "./Projects";
 
-export function ProjectCard(props: ProjectData) {
-  const { title, description, image, link } = props;
+export function ProjectCard(props: ProjectsProps) {
+  const title = props.fields.title;
+  const description = props.fields.description;
+  const imageUrl = props.fields.cardImage.fields.file.url;
 
   return (
     <Card>
-      <CardActionArea href={link} target="_blank">
+      <CardActionArea href="#">
         <CardMedia
           component="img"
           height="145"
-          image={image}
+          image={imageUrl}
           alt={"Image of " + title}
         />
 

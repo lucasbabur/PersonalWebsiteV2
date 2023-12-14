@@ -11,27 +11,37 @@ import { styled } from "@mui/material/styles";
 import { useFirebase } from "../../../firebase/firebaseContext";
 import { useTranslation } from "next-i18next";
 
-import { ProjectData } from "../../../firebase/firebaseFunctions";
 import { ProjectCard } from "./ProjectCard";
 
-export function Projects() {
+export interface ProjectsProps {
+  fields: {
+    title: string;
+    description: string;
+    cardImage: {
+      fields: {
+        file: {
+          url: string;
+          details: {
+            image: {
+              width: number;
+              height: number;
+            };
+          };
+        };
+      };
+    };
+  };
+  metadata: {
+    tags: {
+      id: string;
+    }[];
+  };
+}
+
+export function Projects(props: { projects: ProjectsProps[] }) {
   const { t, i18n } = useTranslation();
   const { functions } = useFirebase();
-  const [actualData, setActualData] = useState<ProjectData[]>([]);
   const [value, setValue] = useState<number>(0);
-
-  useEffect(() => {
-    functions
-      .readProjectsFromFirestore(i18n.language)
-      .then((data) => {
-        console.log(i18n.language);
-        const combinedArray = Object.values(data).flat();
-        setActualData(combinedArray);
-      })
-      .catch((error: Error) => {
-        console.error("Error fetching projects:", error);
-      });
-  }, [i18n.language, functions]);
 
   const TabWidth = styled(Tab)(({ theme }) => ({
     [theme.breakpoints.up("lg")]: {
@@ -47,6 +57,10 @@ export function Projects() {
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) =>
     setValue(newValue);
+
+  console.log("Inside projects");
+
+  console.log(props.projects);
 
   return (
     <>
@@ -94,18 +108,25 @@ export function Projects() {
         component="div"
       >
         <Grid container spacing={4} style={{ justifyContent: "center" }}>
-          {actualData.map((projeto: ProjectData, index) => {
-            if (projeto.category !== value.toString()) return null;
+          {props.projects.map((project: ProjectsProps, index) => {
+            // if (projeto.category !== value.toString()) return null;
+
             return (
-              <Grid key={projeto.title + index} item xs={9} sm={6} md={4}>
-                <ProjectCard {...projeto} />
+              <Grid
+                key={project.fields.title + index}
+                item
+                xs={9}
+                sm={6}
+                md={4}
+              >
+                <ProjectCard {...project} />
               </Grid>
             );
           })}
         </Grid>
         <Typography align="center" style={{ marginTop: "30px" }}>
           {t("projectsSection.howMany_1")}
-          <b>{actualData.length - 1}</b>
+          <b>{props.projects.length - 1}</b>
           {t("projectsSection.howMany_2")}
         </Typography>
       </Container>

@@ -70,8 +70,6 @@ export default function ArticlePage({ blogPost }: any) {
     align: "justify",
   };
 
-  console.log(blogPost);
-
   const options = {
     renderNode: {
       [BLOCKS.EMBEDDED_ASSET]: (node: ContentNodeImage) => {

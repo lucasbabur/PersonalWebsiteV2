@@ -10,12 +10,6 @@ import * as React from "react";
 function SkillListPage() {
   const { t, i18n } = useTranslation("skillsPage");
 
-  console.log(
-    i18n.t("skillsPage:Skills", {
-      returnObjects: true,
-    }) as unknown as Category[]
-  );
-
   return (
     <>
       <Head>
