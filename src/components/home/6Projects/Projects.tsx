@@ -30,17 +30,25 @@ export interface ProjectsProps {
         };
       };
     };
+    slugLink: {
+      fields: {
+        slug: string;
+      };
+    };
+    optionalLink?: string;
+    cardOrder: number;
   };
   metadata: {
     tags: {
-      id: string;
+      sys: {
+        id: string;
+      };
     }[];
   };
 }
 
 export function Projects(props: { projects: ProjectsProps[] }) {
-  const { t, i18n } = useTranslation();
-  const { functions } = useFirebase();
+  const { t } = useTranslation();
   const [value, setValue] = useState<number>(0);
 
   const TabWidth = styled(Tab)(({ theme }) => ({
@@ -58,9 +66,9 @@ export function Projects(props: { projects: ProjectsProps[] }) {
   const handleChange = (event: React.SyntheticEvent, newValue: number) =>
     setValue(newValue);
 
-  console.log("Inside projects");
-
-  console.log(props.projects);
+  const sortedProjects = props.projects.sort(
+    (a, b) => a.fields.cardOrder - b.fields.cardOrder
+  );
 
   return (
     <>
@@ -108,8 +116,19 @@ export function Projects(props: { projects: ProjectsProps[] }) {
         component="div"
       >
         <Grid container spacing={4} style={{ justifyContent: "center" }}>
-          {props.projects.map((project: ProjectsProps, index) => {
-            // if (projeto.category !== value.toString()) return null;
+          {sortedProjects.map((project: ProjectsProps, index) => {
+            try {
+              if (
+                parseInt(
+                  project.metadata.tags[0].sys.id.replace("category", "")
+                ) -
+                  1 !==
+                value
+              )
+                return null;
+            } catch {
+              return null;
+            }
 
             return (
               <Grid

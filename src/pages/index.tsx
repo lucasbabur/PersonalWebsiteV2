@@ -14,11 +14,9 @@ import {
 import Head from "next/head";
 
 import { createClient } from "contentful";
-import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Home({ cards }: { cards: ProjectsProps[] }) {
-  console.log(cards);
   return (
     <>
       <Head>
@@ -29,7 +27,7 @@ export default function Home({ cards }: { cards: ProjectsProps[] }) {
       <WhoAmI />
       <Logos />
       <DataInNumbers />
-      {cards.length > 0 && <Projects projects={cards} />}
+      <Projects projects={cards} />
       <OtherConquests />
       <Feedback />
       <Contact />
@@ -43,7 +41,7 @@ const client = createClient({
   accessToken: process.env.CONTENTFUL_ACCESS_TOKEN as string,
 });
 
-export async function getStaticProps({ params, locale }: any) {
+export async function getStaticProps({ locale }: any) {
   if (locale === "es") locale = "en";
 
   const { items } = await client.getEntries({
@@ -53,7 +51,7 @@ export async function getStaticProps({ params, locale }: any) {
 
   return {
     props: {
-      cards: items as unknown as ProjectsProps[],
+      cards: items,
       ...(await serverSideTranslations(locale, ["common"])),
     },
   };
