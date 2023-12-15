@@ -20,6 +20,8 @@ export const STANDARD_LINKS_PROPS = {
   smooth: true,
   offset: -70,
   duration: 2000,
-  style: { zIndex: 10 },
   href: "#",
+  style: {
+    textDecoration: "none",
+  },
 };
