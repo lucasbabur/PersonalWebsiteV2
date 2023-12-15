@@ -17,6 +17,7 @@ import Paper from "@mui/material/Paper";
 
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import Link from "next/link";
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID as string,
@@ -69,6 +70,8 @@ export default function ArticlePage({ blogPost }: any) {
     mt: "14px",
     align: "justify",
   };
+
+  console.log(blogPost);
 
   const options = {
     renderNode: {
@@ -163,6 +166,7 @@ export default function ArticlePage({ blogPost }: any) {
                       <TableRow>
                         {cell.content.map((cell, index) => {
                           let cellValue = cell.content[0].content[0].value;
+
                           return (
                             <TableCell key={cellValue + index}>
                               {cellValue}
@@ -178,6 +182,33 @@ export default function ArticlePage({ blogPost }: any) {
                       <TableRow>
                         {cell.content.map((cell, index) => {
                           let cellValue = cell.content[0].content[0].value;
+                          let hyperlinkCellIndex =
+                            cell.content[0].content.findIndex((item, index) => {
+                              return item.nodeType === "hyperlink";
+                            });
+
+                          console.log(hyperlinkCellIndex);
+
+                          if (hyperlinkCellIndex !== -1) {
+                            const hyperlinkContent = cell.content[0].content[
+                              hyperlinkCellIndex
+                            ] as unknown as ContentNodeHyperlink;
+
+                            console.log(hyperlinkContent);
+
+                            return (
+                              <TableCell key={index}>
+                                <Link
+                                  href={hyperlinkContent.data.uri}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  {hyperlinkContent.content[0].value}
+                                </Link>
+                              </TableCell>
+                            );
+                          }
+
                           return (
                             <TableCell key={cellValue + index}>
                               {cellValue}

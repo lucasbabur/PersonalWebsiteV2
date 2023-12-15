@@ -86,7 +86,7 @@ type ContentNodeTable = {
         nodeType: "paragraph";
         data: {};
         content: Array<{
-          nodeType: "text";
+          nodeType: string;
           value: string;
           marks: [];
           data: {};
