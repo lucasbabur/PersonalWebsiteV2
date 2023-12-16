@@ -60,6 +60,7 @@
   "projectsSection": {
     "title": "Mis Proyectos",
     "description": "Proyectos con medallas ganadas en al menos una competencia.",
+    "certificates": "Las pruebas se pueden encontrar haciendo clic en las tarjetas. Si es una página, navega hasta el final para encontrarlas.",
     "projectsCategory": "Proyectos",
     "articlesAndBooks": "Artículos y Libros",
     "personalProjects": "Proyectos Personales",

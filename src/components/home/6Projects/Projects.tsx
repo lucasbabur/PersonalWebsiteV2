@@ -78,6 +78,9 @@ export function Projects(props: { projects: ProjectsProps[] }) {
         </Typography>
       </Divider>
       <Typography align="center">{t("projectsSection.description")}</Typography>
+      <Typography align="center" fontSize="10px">
+        {t("projectsSection.certificates")}
+      </Typography>
       <Box
         sx={{
           flexGrow: 1,

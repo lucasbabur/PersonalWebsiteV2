@@ -57,6 +57,7 @@
   "projectsSection": {
     "title": "My Projects",
     "description": "Projects with medals won at least one competition.",
+    "certificates": "Proofs can be found by clicking on the cards. If it's a page, navigate to the end to find them.",
     "projectsCategory": "Projects",
     "articlesAndBooks": "Articles & Books",
     "personalProjects": "Personal Projects",
