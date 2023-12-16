@@ -15,7 +15,8 @@ export async function writeNewMessage(message: Message) {
       message: {
         subject: message.subject,
         text: message.message,
-        html: "This email was sent by: " + message.email,
+        html:
+          message.message + "\nEste e-mail foi enviado para: " + message.email,
       },
     });
   } catch (error) {}
