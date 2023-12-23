@@ -23,7 +23,17 @@ export function Logos() {
 
   useEffect(() => {
     functions.readLogosFromFirestore(i18n.language).then((data: any) => {
-      setData(Object.values(data));
+      let newObject: any = {};
+      Object.entries(data).forEach(([key, value], index) => {
+        console.log(key, value);
+        const newKey = `${index}`;
+        newObject[newKey] = value;
+      });
+      console.log("PreprocessingData", newObject);
+
+      const valuesArray = Object.values(newObject);
+      console.log("PostprocessingData", valuesArray);
+      setData(valuesArray);
     });
 
     const showThreeLogos = () => {
@@ -37,6 +47,7 @@ export function Logos() {
   }, []);
 
   if (showThreeLogos) {
+    console.log(data);
     return (
       <Container style={{ marginTop: "20px" }}>
         <Carousel

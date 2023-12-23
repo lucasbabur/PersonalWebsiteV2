@@ -4,6 +4,7 @@ import styles from "../../../styles/2hero.module.css";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import Image from "next/image";
 
 import { Link } from "react-scroll";
 import { useInView } from "react-intersection-observer";
@@ -48,6 +49,13 @@ export function Hero() {
   return (
     <Box className={styles.background} ref={divRef}>
       {hasWindow && <VidPlayer videoref={videoRef} />}
+
+      <Image
+        src="https://firebasestorage.googleapis.com/v0/b/lucas-tejedor.appspot.com/o/logos%2Fforbes-under30-2023-invertido.png?alt=media&token=90537c18-e780-49b4-8654-3fbdab73d294"
+        width={150}
+        height={100}
+        alt="ForbesUnder30"
+      />
 
       <Typography
         sx={{
